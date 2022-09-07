@@ -1,6 +1,6 @@
 # Transitioning from Monolith to Microservices Handbook
 
-[![Build Status](https://semaphore-oss.semaphoreci.com/badges/book-microservices/branches/master.svg?key=1c89d0d9-55fb-46c8-a4e4-64543c9cab9a)](https://semaphore-oss.semaphoreci.com/projects/book-microservices)
+[![Build Status](https://semaphore-oss.semaphoreci.com/badges/book-microservices/branches/main.svg?key=1c89d0d9-55fb-46c8-a4e4-64543c9cab9a)](https://semaphore-oss.semaphoreci.com/projects/book-microservices)
 
 ## TODOS
 
@@ -17,8 +17,6 @@ X. Rewrite introduction/chapter descriptions
 X. Make a preview-only version of the book
 
 ## Production
-
-[![Build Status](https://semaphore-oss.semaphoreci.com/badges/book-monorepo-cicd/branches/master.svg)](https://semaphore-oss.semaphoreci.com/projects/book-microservices)
 
 Content is written in Markdown, final PDF made with [Pandoc][pandoc].
 
