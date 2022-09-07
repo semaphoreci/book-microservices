@@ -1,5 +1,7 @@
 # Transitioning from Monolith to Microservices Handbook
 
+[![Build Status](https://semaphore-oss.semaphoreci.com/badges/book-microservices/branches/master.svg?key=1c89d0d9-55fb-46c8-a4e4-64543c9cab9a)](https://semaphore-oss.semaphoreci.com/projects/book-microservices)
+
 ## TODOS
 
 1. Migration to final repo: <https://github.com/semaphoreci/book-microservices>
