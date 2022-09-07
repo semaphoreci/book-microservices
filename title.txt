@@ -1,0 +1,12 @@
+---
+title: Transitioning from Monolith to Microservices Handbook
+subtitle: Converting monoliths to the microservice architecture
+author: Semaphore
+language: en-US
+toc: true
+fontsize: 12pt
+colorlinks: true
+urlcolor: blue
+include-before:
+- '`\newpage{}`{=latex}'
+...

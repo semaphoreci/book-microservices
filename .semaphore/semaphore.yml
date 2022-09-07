@@ -1,0 +1,30 @@
+version: v1.0
+name: CI pipeline
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: make
+    task:
+      jobs:
+        - name: Make book (PDF)
+          commands:
+            - ./deps/cpdf cover/cover.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf -o uploads/Monolith_to_Microservices_Handbook.pdf
+            - artifact push workflow uploads
+        - name: Make sample (PDF)
+          commands:
+            - make more
+            - gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=12 -sOutputFile=build/pdf/Monolith_to_Microservices_Handbook_Sample.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf
+            - ./deps/cpdf cover/cover-sample.pdf build/pdf/Monolith_to_Microservices_Handbook_Sample.pdf build/pdf/more.pdf -o uploads/Monolith_to_Microservices_Handbook_Sample.pdf
+            - artifact push workflow uploads
+      prologue:
+        commands:
+          - checkout
+          - mkdir -p uploads
+          - sed -i -e "s/\$MONTHYEAR/$(date +'%b %Y')/g" chapters/01-introduction.md
+          - sed -i -e "s/\$REVISION/$(git rev-parse --short HEAD)/g" chapters/01-introduction.md
+          - make pdf
+promotions:
+  - name: Publish
+    pipeline_file: publish.yml

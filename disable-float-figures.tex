@@ -1,0 +1,10 @@
+% disable floating figures. makes figures stick to were they are in the source code
+% source: https://stackoverflow.com/questions/49482221/pandoc-markdown-to-pdf-image-position
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
