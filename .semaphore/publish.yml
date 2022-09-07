@@ -11,6 +11,7 @@ blocks:
         - name: Upload PDF
           commands:
             - artifact pull workflow uploads
+            - cd uploads
             - 'echo "put Monolith_to_Microservices_Handbook.pdf" | sshpass -p "$FTP_PASSWORD" sftp -P $FTP_PORT -o StrictHostKeyChecking=no $FTP_USER@$FTP_HOST:/wp-content/uploads/2022/09/'
             - 'echo "put Monolith_to_Microservices_Handbook_Sample.pdf" | sshpass -p "$FTP_PASSWORD" sftp -P $FTP_PORT -o StrictHostKeyChecking=no $FTP_USER@$FTP_HOST:/wp-content/uploads/2022/09/'
       secrets:
