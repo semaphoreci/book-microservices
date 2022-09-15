@@ -50,7 +50,7 @@ You won't learn absolutely everything you need to design and run microservices i
 
 We would very much love to hear your feedback after reading this book. What did you like and learn? What could be improved? Is there something we could explain further?
 
-A benefit of publishing an ebook is that we can continuously improve it. And that’s exactly what we intend to do based on your feedback.
+A benefit of publishing electronically is that we can continuously improve it. And that’s exactly what we intend to do based on your feedback.
 
 You can send us feedback by sending an email to <learn@semaphoreci.com>.
 

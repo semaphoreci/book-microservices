@@ -2,7 +2,7 @@
 
 # Parting Words
 
-Hopefully, by now you have a much better grasp of microservices, what they are, what they aren't, and what a migration from a monolith would entail. This may be the end of the ebook but certainly not the end of the road. We wish you the best of luck on your microservice journey!
+Hopefully, by now you have a much better grasp of microservices, what they are, what they aren't, and what a migration from a monolith would entail. This may be the end of the handbook but certainly not the end of the road. We wish you the best of luck on your microservice journey!
 
 ## 6.1 Share This Book With The World
 
