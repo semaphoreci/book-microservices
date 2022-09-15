@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: Make book (PDF)
           commands:
-            - ./deps/cpdf cover/cover.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf -o uploads/Monolith_to_Microservices_Handbook.pdf
+            - ./deps/cpdf cover/cover.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf -o uploads/Monolith_to_Microservices_Handbook-1.pdf
             - artifact push workflow uploads
         - name: Make sample (PDF)
           commands:
