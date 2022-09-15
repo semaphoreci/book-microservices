@@ -15,7 +15,7 @@ blocks:
         - name: Make sample (PDF)
           commands:
             - make more
-            - gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=12 -sOutputFile=build/pdf/Monolith_to_Microservices_Handbook_Sample.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf
+            - gs -sDEVICE=pdfwrite -dPrinted=false -dNOPAUSE -dBATCH -dSAFER -dFirstPage=1 -dLastPage=12 -sOutputFile=build/pdf/Monolith_to_Microservices_Handbook_Sample.pdf build/pdf/Monolith_to_Microservices_Handbook.pdf
             - ./deps/cpdf cover/cover-sample.pdf build/pdf/Monolith_to_Microservices_Handbook_Sample.pdf build/pdf/more.pdf -o uploads/Monolith_to_Microservices_Handbook_Sample-1.pdf
             - artifact push workflow uploads
       prologue:
