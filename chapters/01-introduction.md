@@ -11,7 +11,7 @@ This book is open source:
 <https://github.com/semaphoreci/book-microservices>
 
 Published on the Semaphore website:
-[https://semaphoreci.com](https://semaphoreci.com/?utm_source=ebook&utm_medium=pdf&utm_campaign=microservices)
+[https://semaphoreci.com/resources/microservices](https://semaphoreci.com/resources/microservices?utm_medium=social&utm_source=pdf&utm_campaign=microserviceshandbook)
 
 $MONTHYEAR: First edition v1.0 (revision $REVISION)
 
@@ -19,7 +19,7 @@ $MONTHYEAR: First edition v1.0 (revision $REVISION)
 
 Share this book:
 
-> _I’ve just started reading “Transitioning from Monolith to Microservices Handbook” a free ebook by @semaphoreci: https://bit.ly/3yopUT2([Tweet this!](https://ctt.ac/7fIQw))_
+> _I’ve just started reading “Transitioning from Monolith to Microservices Handbook” a free ebook by @semaphoreci: https://bit.ly/3eWMTA0 ([Tweet this!](https://ctt.ac/fywdO))_
 
 \newpage
 

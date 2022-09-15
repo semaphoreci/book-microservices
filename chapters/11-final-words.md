@@ -8,7 +8,7 @@ Hopefully, by now you have a much better grasp of microservices, what they are, 
 
 Please share this book with your colleagues, friends, and anyone who you think might benefit from it.
 
-Share the book online: _<https://semaphoreci.com/resources/microservices>_
+[Share the book online](https://semaphoreci.com/resources/microservices?utm_medium=social&utm_source=pdf&utm_campaign=microserviceshandbook)
 
 ## 6.2 Tell Us What You Think
 
@@ -24,4 +24,4 @@ _<https://github.com/semaphoreci/book-microservices>_.
 
 ## 6.3 About Semaphore
 
-Semaphore [https://semaphoreci.com](https://semaphoreci.com/?utm_source=ebook&utm_medium=pdf&utm_campaign=book-microservices) helps developers continuously build, test and deploy code at the push of a button. It provides the fastest, enterprise-grade CI/CD pipelines as a serverless service. Trusted by thousands of organizations around the globe, Semaphore can help your team move faster too.
+Semaphore [https://semaphoreci.com](https://semaphoreci.com/?utm_source=ebook&utm_medium=pdf&utm_campaign=microserviceshandbook) helps developers continuously build, test and deploy code at the push of a button. It provides the fastest, enterprise-grade CI/CD pipelines as a serverless service. Trusted by thousands of organizations around the globe, Semaphore can help your team move faster too.
