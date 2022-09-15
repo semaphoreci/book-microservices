@@ -8,7 +8,7 @@ Hopefully, by now you have a much better grasp of microservices, what they are, 
 
 Please share this book with your colleagues, friends, and anyone who you think might benefit from it.
 
-Share the book online: _<https://semaphoreci.com/resources/book-microservices>_
+Share the book online: _<https://semaphoreci.com/resources/microservices>_
 
 ## 6.2 Tell Us What You Think
 

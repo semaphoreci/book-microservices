@@ -6,5 +6,5 @@ We hope you have enjoyed this small sample of the ebook.
 
 Download the the full 80-page ebook for free here:
 
-<https://semaphoreci.com/resources/book-microservices>
+<https://semaphoreci.com/resources/microservices>
 
