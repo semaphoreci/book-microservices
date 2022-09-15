@@ -28,3 +28,5 @@ blocks:
 promotions:
   - name: Publish
     pipeline_file: publish.yml
+    auto_promote:
+      when: branch = 'main' AND result = 'passed'
